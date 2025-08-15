@@ -1,6 +1,10 @@
 # Script de Hardening Linux Versão 1.0 - Maykon Maia e Marcelino
 # LinkedIn: https://www.linkedin.com/in/maykon-maia/ - https://www.linkedin.com/in/marcelino-camilo/
 
+# Antes de mais nada, essa deve ser a primeira linha do seu arquivo
+# Essa linha serve para especificar qual interpretador de comandos deve ser usado para executar o script
+#!/bin/bash
+
 # 1. Atualizar pacotes do sistema
 echo "Atualizando pacotes do sistema..."
 sudo apt update && sudo apt upgrade -y
